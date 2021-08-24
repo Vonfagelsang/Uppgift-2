@@ -1,0 +1,19 @@
+p.bord{
+    
+    border:solid;
+}
+h1.text{
+    font-size: 22px;
+    font-family: Arial;
+}
+p.pro{
+    color:rgb(185, 185, 185);
+    background-color: grey;
+    text-align: center;
+}
+p.right{
+    text-align: right;
+}
+a.link{
+    text-decoration: none;
+}
