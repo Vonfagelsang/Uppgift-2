@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+        <head> 
+        <meta charset="UTF-8">
+<title>Uppgift 1 </title>
+<link href="burh.css" rel="stylesheet">
+        </head>
+        <body> 
+<h1 class="text">Rasmus Jildholt </h1>
+<p class="bord">Jag bor i Teleborg och tar bussen till skolan.</p>
+<p class="bord">Jag gillar att läsa om historia och att annvända teknologi. </p>
+<h2>Teknik proggramet</h2>
+<p class="pro">Jag går på teknik proggrammet och det handlar om datorer, teknologi och massor av mattematik!</p>
+<p class="pro">Jag valde teknik proggrammet för att jag var intereserad av de många spekter som fanns i det. </p>
+<p class="pro">Jag skulle också vilja ha jobb inom teknik-branschen </p>
+<p></p>
+<p class="right">En så länge så verkar det vara interresant. Jag har bra förhoppningar om kursen och tror att jag kommer att lära mig mycket </p>
+<p>Jag vill lära mig hur jag gör min egen websida, men också hur jag kan utöka min kunskap inom det tekniska fältet. </p>
+<p> Det här är min <a class="link" href="https://www.vaxjo.se/sidor/forskola-och-skola/gymnasieskola/teknikum.html">skolas hemsida</a> och så här ser min skola ut: </p>
+<img src="https://www.svtstatic.se/image/wide/992/24754742/1576083057?format=auto" alt="Normal skoldag">
+        </body>
+</html> 
+
+lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+
+.b {
+    grid-area: main;
+}
+.c{
+    grid-area: footer;
+}
+body{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer"; 
+}
+p.bord{
+
+    border:solid;
+}
+h1.text{
+    font-size: 22px;
+    font-family: Arial;
+    grid-area: header;
+}
+p.pro{
+    color:rgb(185, 185, 185);
+    background-color: grey;
+    text-align: center;
+}
+p.right{
+    text-align: right;
+}
+a.link{
+    text-decoration: none;
+}
